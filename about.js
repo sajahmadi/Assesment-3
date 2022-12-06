@@ -15,7 +15,7 @@ function showAlert() {
 
 let form = document.querySelector('#contact');
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', showAlert);
 
 
 let pic = document.querySelector('#duckPic');

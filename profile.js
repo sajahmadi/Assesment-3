@@ -1,33 +1,11 @@
 console.log("hello world");
 
 
-function showAlert() {
-  var myText = "Blue!";
-  alert(myText);
-}
+let colorBtn = document.querySelector('#color');
+colorBtn.addEventListener('click', () => alert ('My favorite color is orange.'));
 
-let form = document.querySelector("#contact");
+let placeBtn = document.querySelector('#place');
+placeBtn.addEventListener('click', () => alert ('My favorite place is Austin.'));
 
-form.addEventListener("My Favorite Color");
-
-
-function showAlert() {
-  var myText = "Austin!";
-  alert(myText);
-}
-
-place = document.querySelector("#place");
-
-place.addEventListener(‘click’, showAlert)
-
-
-function showAlert() {
-  var myText = "A walk in the park after a long day";
-  alert(myText);
-}
-
-ritual = document.querySelector("#ritual");
-
-form.addEventListener("My Favorite Ritual");
-
-
+let ritualBtn = document.querySelector('#ritual');
+ritualBtn.addEventListener("click", () => alert('My favorite ritual is a walk in the park at sunset.'));
